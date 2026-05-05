@@ -1,0 +1,54 @@
+{
+  "_readme": "این فایل را در GitHub Repository خود قرار دهید و آدرس Raw آن را در auth-system.js وارد کنید.",
+  "_format": "code: کد فعال‌سازی | active: true/false | expires: تاریخ انقضا (YYYY-MM-DD) یا null | owner: نام صاحب کد (اختیاری) | usedBy: ایمیل کاربری که استفاده کرده",
+  "codes": [
+    {
+      "code": "JOUYA-2026-AAAA-0001",
+      "active": true,
+      "expires": "2027-12-31",
+      "owner": "مشتری شماره ۱",
+      "usedBy": null,
+      "note": "لایسنس سالانه"
+    },
+    {
+      "code": "JOUYA-2026-BBBB-0002",
+      "active": true,
+      "expires": "2027-06-30",
+      "owner": "مشتری شماره ۲",
+      "usedBy": null,
+      "note": "لایسنس ۶ ماهه"
+    },
+    {
+      "code": "JOUYA-2026-CCCC-0003",
+      "active": true,
+      "expires": null,
+      "owner": "مشتری شماره ۳",
+      "usedBy": null,
+      "note": "لایسنس مادام‌العمر"
+    },
+    {
+      "code": "JOUYA-DEMO-2026-TEST",
+      "active": true,
+      "expires": "2026-12-31",
+      "owner": "دمو",
+      "usedBy": null,
+      "note": "کد آزمایشی — برای تست"
+    },
+    {
+      "code": "JOUYA-FREE-TRIAL-001",
+      "active": true,
+      "expires": "2026-09-30",
+      "owner": "آزمایشی",
+      "usedBy": null,
+      "note": "نسخه رایگان آزمایشی"
+    },
+    {
+      "code": "JOUYA-2025-XXXX-USED",
+      "active": false,
+      "expires": "2026-01-01",
+      "owner": "کاربر قدیمی",
+      "usedBy": "user@example.com",
+      "note": "منقضی شده — غیرفعال"
+    }
+  ]
+}
