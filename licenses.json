@@ -1,7 +1,7 @@
 {
   "_readme": "این فایل را در GitHub Repository (Jouyajan002/rep-system) قرار دهید. آدرس Raw آن در auth-system.js تنظیم شده است.",
-  "_format": "code: کد فعال‌سازی (فقط حروف و اعداد) | active: true/false | expires: تاریخ انقضا (YYYY-MM-DD) یا null | usedBy: ایمیل کاربری که استفاده کرده — وقتی پر شد، این کد دیگر قابل استفاده نیست",
-  "_note": "منطق یکبار مصرف: بعد از ثبت‌نام کاربر، ایمیل او در Google Drive ذخیره می‌شود (jouya-license-registry.json). در هر ثبت‌نام جدید، این رجیستری بررسی می‌شود. اگر کد قبلاً ثبت شده باشد، رد می‌شود.",
+  "_format": "code: کد فعال‌سازی | active: true/false | expires: YYYY-MM-DD | usedBy: ایمیل کاربر",
+  "_note": "بعد از ثبت‌نام کاربر، ایمیل او در Google Drive ذخیره می‌شود. اگر کد قبلاً ثبت شده باشد، رد می‌شود.",
   "codes": [
     {
       "code": "JY2026A1B2C3D4",
@@ -303,7 +303,6 @@
       "expires": null,
       "usedBy": null
     },
-
     {
       "code": "JYBATCH2026B021",
       "active": true,
@@ -424,7 +423,6 @@
       "expires": null,
       "usedBy": null
     },
-
     {
       "code": "JYBATCH2026B041",
       "active": true,
