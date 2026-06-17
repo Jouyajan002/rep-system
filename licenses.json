@@ -240,7 +240,7 @@
     {
       "code": "JYBATCH2026A010",
       "active": true,
-      "expires": 2027-06-15,
+      "expires": "2027-06-15",
       "usedBy": null
     },
     {
